@@ -98,9 +98,71 @@ This analysis show the revenue generated in each quarter alongside the transacti
 
 The analysis indicates that the highest revenue was generated through the swipe use method , totalling $34.9 M , while online transaction contributes the least, amounting to $3.4M
 
-#### SLICER: 
+#### Week_Start_Date_Slicer: 
 
 In this transaction report, a slicer has been given that consist of weekly data that can help the stakeholder to look into the weekly data and take the decision by covering all the analysis together.
+
+@-------------------------------------------------------------------------------------@
+
+#### Page Two : Customer
+
+As evident above,Page Two focuses on customer-based analysis. Here are the details
+
+#### IMPORTANT KPI(KEY PERFORMANCE INDICATOR):
+
+* Total Customer: The dataset comprises a total of 10,293 customers, in that 5987 Female and 4306 is Male
+* Income : Total income of all the customer is about $588M.
+* Interest_Earned: Total interest earned by the customer is $8M
+* CSS(Customer_Sastifaction_Score): The avg css of the customer is 3.19
+
+#### Customer by State code and gender:
+
+Using a Stacked bar chart , the top 5 states by customer count are depicted , along with the distribution based on gender.
+
+* TEXAS(TX): Texas comprises an equal distribution of the male and female ratio i.e 6.2M Female and 6.8M Male.
+* New York(NY): Following the same pattern of texas, NY Also share a same pattern but here the Female participation is bit lower with 5.7M and Male is about 7.3M.
+* California(CA): This state has the highest customer participation where the Male Participation is 6.2M and Female participation is 6.7M.
+* Florida(FL): Florida is the fourth-ranked state in term of total customer. it consist of 4.0M Female and 6.0M Male.
+* New Jersey(NJ): Lastly NJ is among the top 5 states, with 1.6M Female and 2.8M Male.
+
+#### Customer by Martial Status and gender:
+
+Using the bar chart , it is easy to observe the gender distribution on the martial status of all categories. Married Status has almost the highest martial status with 13M Female and 16M Male, while the Single Status has 11M Female and 13 Male and rest is Unkonwn Martial Status.
+
+#### Customer by Age and gender:
+
+For the analysis of total customer by age group, a bar chart has been employed
+
+* This visualisation allow for easy interpretation of the distribution of customers across different age. It's evident that the highest no of customers falls within the 40-50 age group, while the lowest no is observed within the 20-30 age group
+
+#### Customer by Income Group:
+
+For the analysis of total customer by income group, a bar chart has been employed
+
+* This visualisation allow for easy interpretation of the distribution of customers across different income group. It's evident that the highest no of customers falls within the high income group, while the lowest no is observed within the low income group.
+
+#### Revenue by Week:
+
+For the analysis of the weekly revenue, we have used a line chart.
+
+* This visualisation allow for easy interpretation of the revenue on both the gender grouo and give a clear idea that on which part of the yr or month who is earning a higher revenue than each other.
+* There are 2 line consist of Female that is golden in colour and Male is Blue in colour
+* After a clear interpretaion of data we have found that (21 May 2023) of the year , Male had earned the highest revenue which is about $7M AND (12 March 2023) of the year Female has earned the highest revenue which is about $6.3M
+
+#### Customer_job with Total_Revenue and Interest_Earned:
+
+For the analysis of customer_job with revenue and interest earned, we have used the table chart
+
+* From this visualisation , we can conclude that white_collar job earn the highest revenue i.e ($10M) and they also earned a lot of interest i.e($14M) , following by buisnessman and other.
+
+#### Total Customer by Dependent:
+
+In this after doing proper visualisation and data interpretation , we have observed that Majority of customer almost 19M have a num of 3 dependent . Dependent in this refer to as how many member are there in there family and we have also observed that there is a less chance of having 5 num of dependent.
+
+-------------------------------------------------------------------------------------
+
+
+
 
  
  
