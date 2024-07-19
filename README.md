@@ -1,102 +1,45 @@
-# Airlines-Dashboard
+# Credit-Card-Analysis-Using-Power-BI
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+### Dashboard Link : 
 
-## Problem Statement
+## Project Objectives:
+This Power Bi Dashboard's goal is to analyze the dataset and produce a thorough report that the stakeholder may utilize to get understanding.
 
-This dashboard helps the airlines understand their customers better. It helps the airlines know if their customers are satisfied with their services. Through different ratings, they get to know their improvement area, & thus they can improve their services by identifying these area. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
-
-Since, number of neutral/dissatisfied customers (almost 57 %) are more than satisfied customers (around 43 %), thus in all they must work on improving their services. 
-
-Also since average delay in arrival & departure both is 15 minutes, thus they must try to reduce it.
+By levearging the insights provided , stakeholder can identify patterns on credit card usage,enabling them to optimise their feature to potentially increase revenue.
 
 
-### Steps followed 
+##  About Dataset:
 
-- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
-- Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
-- Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
-- Step 4 : It was observed that in none of the columns errors & empty values were present except column named "Arrival Delay".
-- Step 5 : For calculating average delay time, null values were not taken into account as only less than 1% values are null in this column(i.e column named "Arrival Delay") 
-- Step 6 : In the report view, under the view tab, theme was selected.
-- Step 7 : Since the data contains various ratings, thus in order to represent ratings, a new visual was added using the three ellipses in the visualizations pane in report view. 
-- Step 8 : Visual filters (Slicers) were added for four fields named "Class", "Customer Type", "Gate Location" & "Type of travel".
-- Step 9 : Two card visuals were added to the canvas, one representing average departure delay in minutes & other representing average arrival delay in minutes.
-           Using visual level filter from the filters pane, basic filtering was used & null values were unselected for consideration into average calculation.
-           
-           Although, by default, while calculating average, blank values are ignored.
-- Step 10 : A bar chart was also added to the report design area representing the number of satisfied & neutral/unsatisfied customers. While creating this visual, field named "Gender" was also added to the Legends bucket, thus number of customers are also seggregated according the gender. 
-- Step 11 : Ratings Visual was used to represent different ratings mentioned below,
+Prior to proceeding with the project, I would like to discuss the following dataset: 
 
-  (a) Baggage Handling
+* An American Credit Card Transaction Dataset been used, using information from January 2023 to December 2023.
+* Two datasets were supplied by the company for analytical purposes. Excel sheets "Credit_Card.xls" and "Customer.xls" make up the dataset. These datasets include crucial data on credit card transactions and client information.
 
-  (b) Check-in Services
-  
-  (c) Cleanliness
-  
-  (d) Ease of online booking
-  
-  (e) Food & Drink
-  
-  (f) In-flight Entertainment
+## Data Descriptons:
+### Credit_Card.xls
 
-  (g) In-flight Service
-  
-  (h) In-flight wifi service
-  
-  (i) Leg Room service
-  
-  (j) On-board service
-  
-  (k) Online boarding
-  
-  (l) Seat comfort
-  
-  (m) Departure & arrival time convenience
-  
-In our dataset, Some parameters were assigned value 0, representing those parameters are not applicable for some customers.
+The data fields of the dataset that was provided are described as follows:
 
-All these values have been ignored while calculating average rating for each of the parameters mentioned above.
-
-- Step 12 : In the report view, under the insert tab, two text boxes were added to the canvas, in one of them name of the airlines was mentioned & in the other one company's tagline was written.
-- Step 13 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted & similarly using image option company's logo was added to the report design area. 
-- Step 14 : Calculated column was created in which, customers were grouped into various age groups.
-
-for creating new column following DAX expression was written;
+*Client_Num: An individual number that is given to every client or customer.
+*Card_Category: The credit card's category, such as Blue, Gold, or Platinum.
+*Annual Fees: The credit card's yearly charge.
+*Activation_30_Days: A zero-or one-digit indicator indicating if the card was activated within thirty days of being issued.
+*Customer_Acq_Cost: The price paid to obtain the client.
+*Week_Start_Date: The beginning date of the week that the information relates to.
+*Week_Num: The week that the data entry is associated with.
+*Qtr: Quarter (Q1, Q2, Q3, Q4) of the year.
+*Current_year: The year that the information relates to.
+*Credit_Limit: The maximum amount that the credit card is authorized to be charged.
+*Total_Revolving_Bal: The credit card's total amount owed.
+*Total_Trans_Amt: The total amount of credit card transactions.
+*TransVol Total: The total transaction volume made by the credit card.
+* Avg_Utilisation_Ratio: Avg Utilisation Ratio of the Credit Card Balance to the credit limit.
+* Use Chip: Indicates whether the credit card transaction was done using a chip or not.
+* Interest_Earned : Total Interest Earned by the company
+* Exp Type: Type of Expeniture associated with the transaction(eg: Travel,Expenditure)  
+ 
        
-        Age Group = 
-        
-        if(airline_passenger_satisfaction[Age]<=25, "0-25 (25 included)",
-        
-        if(airline_passenger_satisfaction[Age]<=50, "25-50 (50 included)",
-        
-        if(airline_passenger_satisfaction[Age]<=75, "50-75 (75 included)",
-        
-        "75-100 (100 included)")))
-        
-Snap of new calculated column ,
 
-![Snap_1](https://user-images.githubusercontent.com/102996550/174089602-ab834a6b-62ce-4b62-8922-a1d241ec240e.jpg)
-
-        
-- Step 15 : New measure was created to find total count of customers.
-
-Following DAX expression was written for the same,
-        
-        Count of Customers = COUNT(airline_passenger_satisfaction[ID])
-        
-A card visual was used to represent count of customers.
-
-![Snap_Count](https://user-images.githubusercontent.com/102996550/174090154-424dc1a4-3ff7-41f8-9617-17a2fb205825.jpg)
-
-        
- - Step 16 : New measure was created to find  % of customers,
- 
- Following DAX expression was written to find % of customers,
- 
-         % Customers = (DIVIDE(airline_passenger_satisfaction[Count of Customers], 129880)*100)
- 
- A card visual was used to represent this perecntage.
  
  Snap of % of customers who preferred business class
  
