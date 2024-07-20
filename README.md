@@ -102,7 +102,7 @@ The analysis indicates that the highest revenue was generated through the swipe 
 
 In this transaction report, a slicer has been given that consist of weekly data that can help the stakeholder to look into the weekly data and take the decision by covering all the analysis together.
 
-@-------------------------------------------------------------------------------------@
+✨✨-------------------------------------------------------------------------------------✨✨
 
 #### Page Two : Customer
 
@@ -160,6 +160,36 @@ For the analysis of customer_job with revenue and interest earned, we have used 
 In this after doing proper visualisation and data interpretation , we have observed that Majority of customer almost 19M have a num of 3 dependent . Dependent in this refer to as how many member are there in there family and we have also observed that there is a less chance of having 5 num of dependent.
 
 -------------------------------------------------------------------------------------
+
+## Our Target Customer
+
+Based on the analysis results, our target customers are likely to be:
+
+1.Graduate Degree Holders:
+Since the majority of customers hold a graduate degree, targeting this demographic segment can be fruitful.
+
+2.Middle-Aged Individuals (40-50 age group):
+With the highest number of customers falling within this age bracket, tailoring marketing strategies and product offerings to meet their needs and preferences can be effective.
+
+3.High to Medium Income Group:
+As the dataset suggests a larger customer base in the high-income group, focusing on providing affordable and value-added services/products could attract and retain these customers.
+
+4.Blue Card Category Holders:
+Since the Blue card category contributes the most to revenue generation, offering incentives, rewards, or exclusive benefits to this group could further enhance their loyalty and spending.
+
+5.Customers Employed in Business/White-Collar Jobs:
+Business ownrs and white-collar jobholders seem to generate the highest revenue. Thus, targeting professionals in these sectors with tailored financial products/services could lead to increased engagement and revenue.
+
+✨➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖✨✨
+
+## Recommendation:
+
+* Promote Rewards and Benefits: Enhance marketing efforts to highlight the rewards, cashback offers, and exclusive benefits associated with the Blue card category to attract more customers towards it.
+* Targeted Marketing Campaigns: Design targeted marketing campaigns focusing on the preferences and needs of middle-aged individuals, emphasizing convenience, security, and tailored financial solutions.
+* Financial Education and Planning Services: Offer financial education workshops or online resources to help customers in the low-income group manage their finances better and improve their financial well-being.
+* Personalized Offers and Recommendations: Leverage data analytics to provide personalized offers and recommendations based on customers' transaction history, preferences, and life stage to increase engagement and cross-selling opportunities.
+* Customer Retention Strategies: Implement customer retention strategies such as loyalty programs, personalized communications, and proactive customer service to foster long-term relationships and reduce churn.
+* By targeting these specific customer segments and implementing the recommended strategies, we can aim for sustainable revenue growth and enhanced customer satisfaction in the long run.
 
 
 
